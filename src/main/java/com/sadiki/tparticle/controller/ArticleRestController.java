@@ -1,14 +1,11 @@
 package com.sadiki.tparticle.controller;
 
 import com.sadiki.tparticle.domain.Article;
-import com.sadiki.tparticle.dto.ArticleDTO;
-import com.sadiki.tparticle.repository.ArticleRepository;
 import com.sadiki.tparticle.service.ArticleService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
