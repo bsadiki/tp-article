@@ -22,13 +22,6 @@ public class Article implements Serializable {
 
     public Article() {
     }
-    public Article(ArticleDTO articleDTO) {
-        this.id=articleDTO.getId();
-        this.titre=articleDTO.getTitre();
-        this.description=articleDTO.getDescription();
-        this.photo=articleDTO.getPhoto().getBytes();
-        this.selected=articleDTO.isSelected();
-    }
     public Article(String titre, String description, byte[] photo, boolean selected) {
         this.titre = titre;
         this.description = description;
